@@ -1,0 +1,144 @@
+$emphasysColor: #E65C43 /*currently orange*/
+$secondaryColor: #fff   /*currently white*/
+$terciaryColor: #666    /*currently dark grey*/
+body
+    background: url("../images/bg.gif") $secondaryColor repeat-x
+    line-height: 2em
+    font:
+        family: "roboto", san-serif
+        size: 1em
+main
+    width: 940px
+    margin: 0 auto
+    padding: 0 10px
+    
+figure
+    height: 190px
+    width: 400px
+    background: url("../images/logo.png") no-repeat 0 50px 
+    float: left
+nav
+    width: 540px
+    height: 190px
+    float: left
+    text-align: right
+    ul
+        list-style-type: none
+        margin-top: 95px
+        li
+            display: inline-block
+            font-size: 0.8em
+            margin-right: 10px
+nav ul li a
+    color: $emphasysColor
+    text-decoration: none
+    &:hover
+        color: $secondaryColor
+
+header
+    width: inherit
+    clear: both
+    text-align: center
+    padding-top: 40px
+    margin: auto
+    img
+        max-width: 100%
+        height: auto
+    h1 
+        color: $emphasysColor
+        line-height: 0
+        font:
+            weight: 100
+            size: 4em
+        
+    h2
+        color: $secondaryColor
+        font:
+            weight: 900
+            size: 2.5em
+        line-height: 0
+        margin-bottom: 70px
+    h3
+        color: $terciaryColor
+        font:
+            weight: 400
+            size: 2em
+        line-Height: 0
+        margin-bottom: 50px
+#headline
+    width: 100%
+    height: 130px
+    background-color: $emphasysColor
+    text-align: center
+    margin: 0 auto
+    h1
+        color: $secondaryColor
+        padding-top: 50px
+        font:
+            size: 2.5em
+            weight: 100
+#content
+    width: 940px
+    margin: 20px auto
+    h3
+        color: $terciaryColor
+        font:
+            size: 2em
+            weight: 400
+    #products
+        width: 460px
+        float: left
+        img
+            float: left
+            margin-right: 20px
+        article
+            margin-bottom: 40px
+        h4
+            line-height: 1em
+    #testimonials
+        width: 460px
+        float: right
+.greybar
+    width: 100%
+    height: 90px
+    background: #f5f6f6
+    clear: both
+    padding-top: 50px
+footer
+    width: 100%
+    height: 120px
+    background: $terciaryColor
+    text-align: center
+    color: $secondaryColor
+    padding-top: 50px
+
+.social-media 
+    margin: 0 auto
+    width: 165px
+    display: inline-block
+    text-align: center
+    a
+        text-align: center
+    
+.social-media div
+    float: left
+.social-media 
+    text-indent: -9999px
+    .one
+        background: url("../images/social-media.png") 0 0  
+        height: 36px
+        width: 36px
+    .two
+        background: url("../images/social-media.png") -37px 0
+        height: 36px
+        width: 36px
+    .three
+        background: url("../images/social-media.png") -73px 0
+        height: 36px
+        width: 36px
+    .four
+        background: url("../images/social-media.png") -108px 0
+        height: 36px
+        width: 42px
+
+        
